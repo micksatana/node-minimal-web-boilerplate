@@ -1,4 +1,5 @@
 # Minimal Web Boilerplate
+[![Dependency Status](https://david-dm.org/intocode-io/node-minimal-web-boilerplate.svg)](https://david-dm.org/intocode-io/node-minimal-web-boilerplate)
 
 ## Features
 * Development server
