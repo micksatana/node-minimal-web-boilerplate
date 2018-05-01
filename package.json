@@ -1,6 +1,6 @@
 {
   "name": "minimal-web-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack web app boilerplate for a minimalist",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/intocode-io/node-minimal-web-boilerplate.git"
   },
-  "keywords": ["Webpack", "Jest", "Boilerplate", "Web", "Minimal"],
+  "keywords": [
+    "Webpack",
+    "Jest",
+    "Boilerplate",
+    "Web",
+    "Minimal"
+  ],
   "author": "Satana Charuwichitratana <micksatana@live.com>",
   "license": "MIT",
   "devDependencies": {
