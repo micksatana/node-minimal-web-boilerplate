@@ -9,6 +9,13 @@
     * Production code is obfuscated
 * Headless browser testing with Jest and Puppeteer
 
+## Installation
+1. Clone the git repo
+    ```
+    git clone git@github.com:intocode-io/node-minimal-web-boilerplate.git
+    ```
+2. Change project information in `package.json` information to yours
+
 ## How to use
 ### Start development server
 To start a development server, run the following command.
@@ -50,4 +57,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
