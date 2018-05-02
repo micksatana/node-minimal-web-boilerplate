@@ -1,6 +1,6 @@
 {
   "name": "minimal-web-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webpack web app boilerplate for a minimalist",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
