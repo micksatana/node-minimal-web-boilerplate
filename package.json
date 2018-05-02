@@ -1,6 +1,6 @@
 {
   "name": "minimal-web-boilerplate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Webpack web app boilerplate for a minimalist",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
@@ -22,9 +22,9 @@
   "license": "MIT",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.2.0",
     "jest": "^22.4.3",
     "puppeteer": "^1.3.0",
     "style-loader": "^0.21.0",

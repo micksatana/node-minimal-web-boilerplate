@@ -1,6 +1,6 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const packageJson = require('./package.json');
 
 module.exports = {
@@ -19,21 +19,17 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
-            },
-            {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ]
             }
         ]
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({
-            title: `${packageJson.name}@${packageJson.version}`,
-            meta: { viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no' }
-        })
+        new CopyWebpackPlugin([
+            { from: '**/*.html' },
+            { from: '**/*.png' },
+            { from: '**/*.jpg' },
+            { from: '**/*.gif' }
+        ], { context: 'src', to: 'dist' })
     ],
     output: {
         filename: '[name].bundle.js',
