@@ -31,7 +31,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: `${packageJson.name}@${packageJson.version}`
+            title: `${packageJson.name}@${packageJson.version}`,
+            meta: { viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no' }
         })
     ],
     output: {
