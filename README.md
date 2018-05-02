@@ -1,4 +1,5 @@
 # Minimal Web Boilerplate
+[![Build Status](https://travis-ci.org/intocode-io/node-minimal-web-boilerplate.svg?branch=master)](https://travis-ci.org/intocode-io/node-minimal-web-boilerplate)
 [![devDependencies Status](https://david-dm.org/intocode-io/node-minimal-web-boilerplate/dev-status.svg)](https://david-dm.org/intocode-io/node-minimal-web-boilerplate?type=dev)
 
 ## Features
