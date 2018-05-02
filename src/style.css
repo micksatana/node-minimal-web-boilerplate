@@ -1,3 +1,14 @@
-div {
-    color: blue;
+body {
+    color: #104b98;
+    background: #eee;
+}
+.logo {
+    background: url(../assets/logo.png) no-repeat center center;
+    width: 320px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -31px;
+    margin-left: -160px;
 }
