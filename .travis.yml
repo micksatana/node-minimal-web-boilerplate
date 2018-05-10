@@ -17,4 +17,4 @@ cache:
     - "node_modules"
 before_script:
   - "npm run dev > /dev/null &"
-  - "sleep 10"
+  - "sleep 20"
