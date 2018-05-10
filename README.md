@@ -4,8 +4,8 @@
 
 ## Features
 * Development server
-    * Hot Module Replacement (HMR) enabled
     * Develop and see result immediately
+    * Quick build
 * Production code
     * Production code is obfuscated
 * Headless browser testing with Jest and Puppeteer
