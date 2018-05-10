@@ -12,7 +12,7 @@ describe('First landing page', () => {
             args: ['--no-sandbox']
         });
         page = await browser.newPage();
-        await page.goto('http://localhost:7777');
+        await page.goto('http://localhost:1234');
         itWorks = await page.evaluate(() => document.querySelector('.it-works').innerText);
     });
     

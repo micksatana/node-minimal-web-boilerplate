@@ -4,7 +4,7 @@
   "description": "Web app boilerplate for a minimalist",
   "scripts": {
     "predev": "shx rm -rf dist/*",
-    "dev": "parcel src/index.html -p 7777",
+    "dev": "parcel src/index.html",
     "prebuild": "shx rm -rf dist/*",
     "build": "parcel build src/index.html",
     "test": "jest --config jest.config.js"
