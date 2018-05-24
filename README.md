@@ -13,7 +13,7 @@
 ## Installation
 1. Clone the git repo
     ```
-    git clone git@github.com:intocode-io/node-minimal-web-boilerplate.git
+    git clone https://github.com/intocode-io/node-minimal-web-boilerplate.git
     ```
 2. Change project information in `package.json` information to yours
 
