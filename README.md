@@ -8,7 +8,7 @@
     * Quick build
 * Production code
     * Production code is obfuscated
-* Headless browser testing with Jest and Puppeteer
+* Testing with Jest
 
 ## Installation
 1. Clone the git repo
