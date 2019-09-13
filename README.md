@@ -1,6 +1,11 @@
 # Minimal Web Boilerplate
-[![Build Status](https://travis-ci.org/intocode-io/node-minimal-web-boilerplate.svg?branch=master)](https://travis-ci.org/intocode-io/node-minimal-web-boilerplate)
-[![devDependencies Status](https://david-dm.org/intocode-io/node-minimal-web-boilerplate/dev-status.svg)](https://david-dm.org/intocode-io/node-minimal-web-boilerplate?type=dev)
+
+[![Actions status](https://github.com/intocode-io/node-minimal-web-boilerplate/workflows/build/badge.svg)](https://github.com/intocode-io/node-minimal-web-boilerplate/actions)
+[![codecov](https://codecov.io/gh/intocode-io/node-minimal-web-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/intocode-io/node-minimal-web-boilerplate)
+[![Version](https://img.shields.io/npm/v/@intocode-io/minimal-web-boilerplate.svg)](https://npmjs.com/package/@intocode-io/minimal-web-boilerplate)
+![NPM](https://img.shields.io/npm/l/@intocode-io/minimal-web-boilerplate)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/micksatana?locale.x=en_GB)
+
 
 ## Features
 * Development server
