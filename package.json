@@ -1,6 +1,6 @@
 {
   "name": "@intocode-io/minimal-web-boilerplate",
-  "version": "1.2.7",
+  "version": "2.0.0",
   "description": "Web app boilerplate for a minimalist",
   "scripts": {
     "predev": "shx rm -rf dist/*",
